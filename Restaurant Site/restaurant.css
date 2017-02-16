@@ -21,11 +21,19 @@ img.center {
     margin-right: auto;
 }
 
+main {
+  background-color: lightgray;
+}
+
 main p {
     margin: 20px auto;
     width: 360px;
     padding: 20px;
     border: 1px solid black;
+}
+
+.menu {
+  background-color: lightgray;
 }
 
 table {
@@ -36,6 +44,10 @@ table {
 form {
     margin-left: 35%;
     margin-right: 35%;
+}
+
+form p {
+  font-weight: bold;
 }
 
 footer {
