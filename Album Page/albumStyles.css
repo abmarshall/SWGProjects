@@ -18,3 +18,21 @@ h1, h2 {
   background-size: contain;
   background-position: center;
 }
+
+a:link {
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: lightgray;
+}
+
+td {
+  font-style: italic;
+}
+
+td {
+  background-color: black;
+  color: white;
+}
