@@ -6,3 +6,15 @@ img {
     width: 300px;
     height: 300px
 }
+
+h1, h2 {
+  font-family: oswald;
+}
+
+.background {
+  background-image: url("http://dailytrojan.com/wp-content/uploads/2016/02/my-bloody-valentine-loveless-cover.jpeg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
