@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>title</title>
+  <link rel="stylesheet" type="text/css" href="restaurant.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>Restaurant Name</h1>
+  </header>
+  <hr>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <hr>
+
+  <form action="contact.html">
+    <p>Name: <input type="text" name="name"></p>
+    <p>Email: <input type="text" name="email"></p>
+    <p>Phone: <input type="text" name="phone"></p>
+    <p>Reason for Inquiry: <select name="reason">
+        <option value="catering">Catering</option>
+        <option value="privateParty">Private Party</option>
+        <option value="feedback">Feedback</option>
+        <option value="other">Other</option>
+      </select></p>
+    <p>Additional Information: <textarea></textarea></p>
+    <p>Have you been to the reasturant?
+      <input type="radio" name="priorVisit" value="No" checked/>No
+      <input type="radio" name="priorVisit" value="Yes" />Yes</p>
+    <p>Best days to contact you:
+      <input type="checkbox" name="contactDay" value="m">M
+      <input type="checkbox" name="contactDay" value="t">T
+      <input type="checkbox" name="contactDay" value="w">W
+      <input type="checkbox" name="contactDay" value="th">Th
+      <input type="checkbox" name="contactDay" value="f">F</p>
+    <p><input type="submit" name="submit" value="Send Request">
+  </form>
+
+  <footer>
+    <hr>
+    <p>Street, City, State, Zipcode</p>
+    <p>Telephone Number</p>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+nav ul {
+    padding: 0
+}
+
+nav li {
+    display: inline;
+    padding: 20px;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main p {
+    margin: 20px auto;
+    width: 360px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+}
+
+form {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
