@@ -15,6 +15,18 @@ nav li {
     padding: 20px;
 }
 
+nav a:visited {
+    color: gray;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav a:active {
+    text-decoration: none;
+}
+
 img.center {
     display: block;
     margin-left: auto;
@@ -22,7 +34,7 @@ img.center {
 }
 
 main {
-  background-color: lightgray;
+    background-color: lightgray;
 }
 
 main p {
@@ -33,12 +45,27 @@ main p {
 }
 
 .menu {
-  background-color: lightgray;
+    background-color: lightgray;
 }
 
-table {
+#foodmenu {
     text-align: center;
     width: 100%;
+}
+
+#drinkmenu {
+    width: 33%;
+    margin: 30px 33%;
+}
+
+#drinkmenu th, caption {
+    text-align: left;
+}
+
+#drinkmenu caption {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 form {
@@ -47,7 +74,7 @@ form {
 }
 
 form p {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 footer {
