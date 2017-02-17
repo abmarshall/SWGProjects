@@ -1,0 +1,54 @@
+Total Height: 212px
+ 
+20px (margin) +
+1px (border) + 
+10px (padding) + 
+150px (content height) + 
+10px (padding) +
+1px (border) +
+20px (margin)
+__________________
+212px
+
+
+
+
+
+Total Width: 462px
+
+20px (margin) +
+1px (border) + 
+10px (padding) + 
+400px (content width) + 
+10px (padding) +
+1px (border) +
+20px (margin)
+__________________
+462px
+
+
+
+
+
+Browser Calculated Height (no margin): 172px
+
+1px (border) + 
+10px (padding) + 
+150px (content height) + 
+10px (padding) +
+1px (border) 
+
+__________________
+172px
+
+
+
+Browser Calculated Width (no margin): 422px
+
+1px (border) + 
+10px (padding) + 
+400px (content width) + 
+10px (padding) +
+1px (border) 
+__________________
+422px
