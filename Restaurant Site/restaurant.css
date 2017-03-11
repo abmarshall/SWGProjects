@@ -46,6 +46,7 @@ main p {
 
 .menu {
     background-color: lightgray;
+    text-align: center;
 }
 
 #foodmenu {
@@ -81,5 +82,5 @@ footer {
     text-align: center;
     position: absolute;
     width: 100%;
-    bottom: 0;
+    
 }
